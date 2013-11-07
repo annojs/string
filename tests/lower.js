@@ -7,7 +7,5 @@ var lower = require('../').lower;
 
 fuzz._amount = 100;
 fuzz(lower, function(op, str) {
-    if(str) return op(str);
-
-    return str;
+    return str? op(str): true;
 });
