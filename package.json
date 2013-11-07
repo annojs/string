@@ -1,0 +1,39 @@
+{
+  "name": "annostring",
+  "description": "Annotated string utilities for JavaScript",
+  "author": "Juho Vepsalainen <bebraw@gmail.com>",
+  "version": "0.1.0",
+  "dependencies": {
+    "annois": "0.3.0",
+    "annotate": "0.7.0",
+    "require-dir": "~0.1.0"
+  },
+  "devDependencies": {
+    "annogenerate": "0.6.2"
+  },
+  "scripts": {
+    "test": "node ./tests"
+  },
+  "main": "./lib",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:annojs/string.git"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "homepage": "https://github.com/annojs/string",
+  "bugs": {
+    "url": "https://github.com/annojs/string/issues"
+  },
+  "keywords": [
+    "string",
+    "utilities"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/annojs/string/blob/master/LICENSE"
+    }
+  ]
+}
