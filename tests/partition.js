@@ -1,12 +1,7 @@
-var generate = require('annogenerate');
-var fuzz = require('annofuzz')(generate);
 var is = require('annois');
 
-var partition = require('../').partition;
 
-
-fuzz._amount = 100;
-fuzz(partition, function(op, chr, str) {
+module.exports = function(op, chr, str) {
     chr = chr[0];
 
     var parts = str.split(chr);
@@ -21,4 +16,5 @@ fuzz(partition, function(op, chr, str) {
     }
 
     return true;
-});
+};
+
