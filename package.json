@@ -5,12 +5,12 @@
   "version": "0.2.2",
   "dependencies": {
     "annois": "0.3.0",
-    "annotate": "0.7.0",
-    "require-dir": "~0.1.0"
+    "annotate": "0.7.0"
   },
   "devDependencies": {
     "annogenerate": "0.6.2",
-    "annofuzz": "~0.3.1"
+    "annofuzz": "~0.3.1",
+    "require-dir": "~0.1.0"
   },
   "scripts": {
     "test": "node ./tests"
